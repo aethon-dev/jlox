@@ -1,5 +1,8 @@
 package com.apylon.lox;
 
+import com.apylon.lox.Scanner.Scanner;
+import com.apylon.lox.Scanner.Token;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -54,7 +57,7 @@ public class Lox {
         }
     }
 
-    static void error(int line, String message) {
+    public static void error(int line, String message) {
         report(line, "", message);
     }
 

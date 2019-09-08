@@ -1,4 +1,4 @@
-package com.apylon.lox;
+package com.apylon.lox.Scanner;
 
 public enum TokenType {
     // Single-character tokens.

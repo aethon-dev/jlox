@@ -1,11 +1,13 @@
-package com.apylon.lox;
+package com.apylon.lox.Scanner;
+
+import com.apylon.lox.Lox;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.apylon.lox.TokenType.*;
+import static com.apylon.lox.Scanner.TokenType.*;
 
 public class Scanner {
 

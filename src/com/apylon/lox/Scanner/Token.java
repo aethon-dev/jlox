@@ -1,4 +1,4 @@
-package com.apylon.lox;
+package com.apylon.lox.Scanner;
 
 public class Token {
     final TokenType tokenType;
